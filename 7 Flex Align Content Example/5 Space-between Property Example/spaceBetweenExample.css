@@ -1,0 +1,31 @@
+body{
+    margin:0;
+}
+.flex-container {
+    display: flex;
+    height: 400px;
+    flex-wrap: wrap;
+    border: 2px solid black;
+    align-content: space-between;
+}
+  
+.flex-item {
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    font-size: 30px;
+    
+}
+
+.item-1 {
+    background-color: aqua;
+}
+.item-2 {
+    background-color: blue;
+}
+.item-3 {
+    background-color:red;
+}
+.item-4 {
+    background-color:yellow;
+}

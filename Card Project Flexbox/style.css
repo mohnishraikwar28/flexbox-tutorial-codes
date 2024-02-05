@@ -1,0 +1,127 @@
+ @import url("https://fonts.googleapis.com/css2?family=Borel&family=Bree+Serif&family=Handjet:wght@300&family=Open+Sans:wght@300&family=Poppins:wght@300&family=Rajdhani:wght@500&family=Tourney:wght@100&family=Train+One&display=swap");
+
+body {
+  padding: 0;
+  margin: 0;
+  background-image: linear-gradient(
+    to right bottom,
+    #1b72ee,
+    #3c7ef0,
+    #528af2,
+    #6595f3,
+    #77a1f4
+  );
+}
+
+.team-container {
+  width: 100%;
+  height: auto;
+  padding-top: 40px;
+  padding-bottom: 10px;
+}
+
+.text {
+  color: white;
+  font-size: 35px;
+  font-weight: 550;
+  text-transform: uppercase;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+}
+
+.row {
+  width: 70%;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.profile-card {
+  background: linear-gradient(
+    to right bottom,
+    #2968c7,
+    #5384d1,
+    #789fd9,
+    #9ebae0,
+    #c6d5e7
+  );
+  width: 300px;
+  height: auto;
+  margin: 20px 10px;
+  border-radius: 5px;
+  box-shadow: 10px 10px #160a63;
+}
+
+.profile-card:hover {
+  transform: rotate(5deg);
+}
+.profile-content {
+  padding: 15px;
+}
+
+.profile-image {
+  text-align: center;
+}
+
+img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.desc {
+  text-align: center;
+}
+
+.desc h2 {
+  color: #09091a;
+  font-size: 20px;
+  font-weight: bolder;
+  font-family: "Borel", cursive;
+}
+
+.desc p {
+  font-size: 19px;
+  line-height: 1.3em;
+  margin-top: -10px;
+  color: black;
+  font-family: "Rajdhani", sans-serif;
+  text-align: justify;
+}
+
+.btn-div {
+  text-align: center;
+}
+
+.btn {
+  color: white;
+  width: 50px;
+  height: 38px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+  box-shadow: 3px 3px 3px 3px #e6e6e6;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  text-transform: uppercase;
+  margin: 10px;
+}
+
+.btn:nth-child(1) {
+  background-color: blue;
+}
+
+.btn:nth-child(2) {
+  background-color: #f07b37;
+}
+
+.btn:nth-child(3) {
+  background-color: skyblue;
+}
+
+.btn:hover {
+  background-color: black;
+}

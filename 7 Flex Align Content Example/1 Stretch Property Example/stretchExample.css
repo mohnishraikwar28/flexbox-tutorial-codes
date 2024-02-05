@@ -1,0 +1,66 @@
+body{
+    margin:0;
+}
+.flex-container{
+border: 1px solid #000000;
+width: 500px;
+  display: flex;
+  height: 400px;
+  flex-wrap: wrap;
+  align-content:flex-end;
+}
+.flex-item{
+    color:white;
+    font-size: 1.5em;
+    padding: 1rem;
+    text-align:center;
+}
+
+.item-1 {
+    background-color: aqua;
+}
+.item-2 {
+    background-color: blue;
+}
+.item-3 {
+    background-color:red;
+}
+.item-4 {
+    background-color:green;
+}
+.item-5 {
+    background-color: aqua;
+}
+.item-6 {
+    background-color: blue;
+}
+.item-7 {
+    background-color:red;
+}
+.item-8 {
+    background-color:green;
+}
+.item-9 {
+    background-color: aqua;
+}
+.item-10 {
+    background-color: blue;
+}
+.item-11 {
+    background-color:red;
+}
+.item-12 {
+    background-color:green;
+}
+.item-13 {
+    background-color: aqua;
+}
+.item-14 {
+    background-color: blue;
+}
+.item-15 {
+    background-color:red;
+}
+.item-16 {
+    background-color:green;
+}

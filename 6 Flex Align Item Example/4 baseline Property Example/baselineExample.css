@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+}
+.flex-container {
+  border: 6px solid black;
+  display: flex;
+  height: 500px;
+  align-items: baseline;
+}
+.flex-item {
+  color: white;
+  font-size: 1.5em;
+  padding: 1rem;
+  text-align: center;
+}
+
+.item-1 {
+  background-color: aqua;
+}
+.item-2 {
+  background-color: blue;
+}
+.item-3 {
+  background-color: red;
+  padding: 2rem;
+}
+.item-4 {
+  background-color: green;
+  padding: 1rem;
+}
